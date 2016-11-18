@@ -1,0 +1,39 @@
+<upgrade>
+    <phrases>
+        <phrase>
+            <module_id>admincp</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>run</var_name>
+            <added>1455770035</added>
+            <value>Run</value>
+        </phrase>
+        <phrase>
+            <module_id>admincp</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>records</var_name>
+            <added>1455770112</added>
+            <value>records</value>
+        </phrase>
+        <phrase>
+            <module_id>admincp</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>Cannot delete this app.</var_name>
+            <added>1455770112</added>
+            <value>records</value>
+        </phrase>
+        <phrase>
+            <module_id>admincp</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>Cannot delete this module.</var_name>
+            <added>1455770112</added>
+            <value>records</value>
+        </phrase>
+        <phrase>
+            <module_id>admincp</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>license_key</var_name>
+            <added>1456800032</added>
+            <value>License key</value>
+        </phrase>
+    </phrases>
+</upgrade>

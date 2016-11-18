@@ -1,0 +1,96 @@
+<upgrade>
+    <settings>
+        <setting>
+            <group></group>
+            <module_id>forum</module_id>
+            <is_hidden>0</is_hidden>
+            <type>integer</type>
+            <var_name>total_recent_posts_display</var_name>
+            <phrase_var_name>setting_total_recent_posts_display</phrase_var_name>
+            <ordering>5</ordering>
+            <version_id>4.3.0</version_id>
+            <value>20</value>
+        </setting>
+        <setting>
+            <group></group>
+            <module_id>forum</module_id>
+            <is_hidden>0</is_hidden>
+            <type>integer</type>
+            <var_name>total_recent_discussions_display</var_name>
+            <phrase_var_name>setting_total_recent_discussions_display</phrase_var_name>
+            <ordering>4</ordering>
+            <version_id>4.3.0</version_id>
+            <value>20</value>
+        </setting>
+        <setting>
+            <group></group>
+            <module_id>forum</module_id>
+            <is_hidden>0</is_hidden>
+            <type>boolean</type>
+            <var_name>enable_thanks_on_posts</var_name>
+            <phrase_var_name>setting_enable_thanks_on_posts</phrase_var_name>
+            <ordering>6</ordering>
+            <version_id>4.3.0</version_id>
+            <value>0</value>
+        </setting>
+    </settings>
+    <phrases>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>setting_total_recent_posts_display</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[<title>Total Recent Posts Display</title><info>Define how many posts should be displayed within the Recent Posts block.</info>]]></value>
+        </phrase>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>setting_total_recent_discussions_display</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[<title>Total Recent Discussions Display</title><info>Define how many discussions should be displayed within the Recent Discussions block.</info>]]></value>
+        </phrase>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>thanks</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[Thanks]]></value>
+        </phrase>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>delete_thanks</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[Delete thanks]]></value>
+        </phrase>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>thanks_count</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[{count} thanks]]></value>
+        </phrase>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>no_one_has_thanked_this_post</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[No one has thanked this post]]></value>
+        </phrase>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>people_who_thanked_this_post</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[People who thanked this post]]></value>
+        </phrase>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.3.0</version_id>
+            <var_name>setting_enable_thanks_on_posts</var_name>
+            <added>1456210611</added>
+            <value><![CDATA[<title>Enable "Thanks" on posts</title><info>Set to <b>True</b> to enable "Thanks" on posts.
+<b>Note:</b> If you enable "Thanks" on posts, the feature "Like" on posts will be disable.</info>]]></value>
+        </phrase>
+    </phrases>
+</upgrade>

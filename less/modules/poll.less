@@ -1,0 +1,291 @@
+.votes {
+    background: transparent;
+    width: auto;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    .answers_container:last-of-type {
+        padding-bottom: 0;
+    }
+}
+
+.poll_question {
+    background: darken(@block-bg, 4%);
+    padding: @block-content-padding;
+    margin-bottom: 10px;
+}
+
+.answers_container.user_answered_this {
+    background: transparent;
+    border-radius: 0;
+    background: @brand-primary;
+    padding: 10px;
+    color: @brand-primary-color !important;
+
+    * {
+        color: @brand-primary-color !important;
+    }
+
+    .poll_answer_percentage {
+        background: @brand-primary-color;
+    }
+}
+
+.answers_container {
+    padding: 10px 0 20px 0;
+    border-top: 1px darken(@block-bg, 10%) solid;
+}
+
+.poll_answer_percentage {
+    background: @brand-primary;
+}
+
+#page_poll_add {
+    .js_prev_block, .js_prev_block:hover {
+        background: transparent;
+    }
+    .js_arrow_up_down {
+        position: absolute;
+        left: 2 * @block-content-padding;
+    }
+
+    .placeholder {
+        position: relative;
+        input[type="text"] {
+            text-indent: 2 * @block-content-padding;
+        }
+
+        > div > span > i {
+            position: absolute;
+            left: @block-content-padding*-1;
+            top: 10px;
+            color: @form-color;
+            cursor: move;
+        }
+    }
+}
+
+.poll_add_more {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    a {
+        color: lighten(@text-color, 20%);
+        display: table-cell;
+        width: 50%;
+        text-align: center;
+        padding: 4px;
+    }
+
+    a:hover {
+        color: @brand-primary;
+        transition: @transition;
+        text-decoration: none;
+    }
+}
+
+#js_votes {
+    .go_left {
+        padding-right: 0;
+        margin-right: 10px;
+    }
+}
+
+.poll_answer_container {
+    border: 1px solid @body-bg;
+}
+
+.poll_large_item {
+    border: 1px solid @block-border;
+    margin-bottom: @block-content-padding;
+    .poll_large_image {
+        border-top: 1px solid @block-border;
+        background-image: url("@{image-folder}/misc/poll_no_img.jpg");
+        display: block;
+        padding-bottom: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    header {
+        padding: 10px 20px;
+        h1 {
+            padding: 0;
+        }
+    }
+}
+
+#page_poll_design {
+    ._colorpicker_holder {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+}
+
+.collection-stage {
+    &:after {
+        clear: both;
+        display: block;
+    }
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.collection-item-stage {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.collection-item-stage {
+    > div._moderator {
+        float: right;
+        right: 0;
+        top: 0;
+        .row_edit_bar {
+            margin-right: 0;
+        }
+        .row_edit_bar > .row_edit_bar_action {
+            position: relative;
+            right: 0;
+        }
+        i.fa-action {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background-color: #edeeef;
+            border: 1px solid @block-border;
+            border-top: 0;
+            display: block;
+        }
+    }
+    a.moderate_link, a.moderate_link:hover {
+        left: 0;
+        position: relative;
+    }
+    .moderate_link {
+        position: relative;
+        float: right;
+        i.fa {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background-color: #edeeef;
+            display: block;
+            border: 1px solid @block-border;
+        }
+    }
+    .row_edit_bar_parent {
+        position: relative;
+        float: right;
+        clear: both;
+    }
+    > div.moderation_row {
+    }
+}
+
+#page_user_browse .empty-right .collection-item-stage,
+#page_poll_index .empty-right .collection-item-stage,
+#page_quiz_index .empty-right .collection-item-stage,
+#page_event_index .empty-right .collection-item-stage,
+#page_pages_index .empty-right .collection-item-stage,
+#page_pages_all .empty-right .collection-item-stage,
+#page_groups_all .empty-right .collection-item-stage {
+    @media (min-width: @screen-md) {
+        width: 50%;
+    }
+}
+
+.collection-stage-narrow {
+    &:after {
+        clear: both;
+        display: block
+    }
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.collection-stage-item-narrow {
+    float: left;
+    position: relative;
+}
+
+.my_photo_item {
+    display: block;
+    width: 33.3333%;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-decoration: none;
+    span {
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-bottom: 100%;
+    }
+}
+
+.pages_item {
+    > a {
+        float: left;
+        display: block;
+        width: 120px;
+        margin-right: 12px
+    }
+    div.pages_info {
+        display: block;
+        padding-top: 1px;
+    }
+    div.pages_info > div{
+        overflow:hidden;
+    }
+    div.pages_info > div > a,
+    div.pages_info > div > span > a {
+        margin-top: 10px;
+        max-width: 100%;
+        display: block;
+        white-space: normal;
+        overflow: hidden;
+        padding: 0;
+        font-size: 18px;
+        text-overflow: ellipsis;
+        line-height: 30px;
+        height: 30px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        font-weight: 400 !important;
+        color: @link-color !important;
+    }
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.4);
+    height: 120px;
+
+    @media (max-width:320px){
+        height:110px;
+        ._size__120, ._size__120:hover,._image_120{
+            width:110px;
+            height:110px;
+        }
+
+        &.user_item > a:not(.btn) {
+            width:110px;
+            height:110px;
+        }
+    }
+}
+
+#page_user_browse .pages_item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.poll_user_image.go_left {
+    padding-right: 0;
+    margin-right: 10px;
+}

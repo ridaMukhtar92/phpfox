@@ -1,0 +1,11 @@
+<upgrade>
+    <phrases>
+        <phrase>
+            <module_id>forum</module_id>
+            <version_id>4.2.0</version_id>
+            <var_name>moderation</var_name>
+            <added>1451530120</added>
+            <value>Moderation</value>
+        </phrase>
+    </phrases>
+</upgrade>

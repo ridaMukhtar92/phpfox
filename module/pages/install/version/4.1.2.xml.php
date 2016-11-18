@@ -1,0 +1,123 @@
+<upgrade>
+    <phrases>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>home</var_name>
+            <added>1449742435</added>
+            <value>Home</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>unjoin</var_name>
+            <added>1449805406</added>
+            <value>Unjoin</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>unlike</var_name>
+            <added>1449805458</added>
+            <value>Unlike</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>password</var_name>
+            <added>1449830664</added>
+            <value>Password</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>enter_the_password_used_to_log_into_the_account</var_name>
+            <added>1449830735</added>
+            <value>Enter the password used to log into the account</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>login</var_name>
+            <added>1449830886</added>
+            <value>Login</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>claims</var_name>
+            <added>1449830985</added>
+            <value>Claims</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>claimed_by</var_name>
+            <added>1449831028</added>
+            <value>Claimed By</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>page_owner</var_name>
+            <added>1449831064</added>
+            <value>Page Owner</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>grant</var_name>
+            <added>1449831151</added>
+            <value>Grant</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>deny</var_name>
+            <added>1449831188</added>
+            <value>Deny</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>there_are_no_claims_at_the_moment_dot</var_name>
+            <added>1449831242</added>
+            <value>There are no claims at the moment.</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>no_pages</var_name>
+            <added>1449831328</added>
+            <value>No pages</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>that_title_is_not_allowed</var_name>
+            <added>1450149227</added>
+            <value>That title is not allowed</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>not_a_valid_claim</var_name>
+            <added>1450149291</added>
+            <value>Not a valid claim</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>user_is_not_an_admin</var_name>
+            <added>1450149364</added>
+            <value>User is not an admin</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>the_photo_does_not_belong_to_this_page</var_name>
+            <added>1450149423</added>
+            <value>The photo does not belong to this page</value>
+        </phrase>
+    </phrases>
+</upgrade>

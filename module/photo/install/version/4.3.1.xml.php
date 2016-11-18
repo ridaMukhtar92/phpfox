@@ -1,0 +1,53 @@
+<upgrade>
+    <user_group_settings>
+        <setting>
+            <is_admin_setting>0</is_admin_setting>
+            <module_id>photo</module_id>
+            <type>integer</type>
+            <admin>1500</admin>
+            <user>1200</user>
+            <guest>1200</guest>
+            <staff>1500</staff>
+            <module>photo</module>
+            <ordering>10</ordering>
+            <value>maximum_image_width_keeps_in_server</value>
+        </setting>
+    </user_group_settings>
+    <components>
+        <component>
+            <module_id>photo</module_id>
+            <component>my-photo</component>
+            <m_connection/>
+            <module>photo</module>
+            <is_controller>0</is_controller>
+            <is_block>1</is_block>
+            <is_active>1</is_active>
+            <value />
+        </component>
+    </components>
+    <phrases>
+        <phrase>
+            <module_id>photo</module_id>
+            <version_id>4.4.0</version_id>
+            <var_name>user_setting_total_photo_display_profile</var_name>
+            <added>1458017923</added>
+            <value>Maximum image width keeps in server (in pixel). If image width user upload higher than this value will crop to this value.</value>
+        </phrase>
+    </phrases>
+    <blocks>
+        <block>
+            <type_id>0</type_id>
+            <m_connection>profile.index</m_connection>
+            <module_id>photo</module_id>
+            <component>my-photo</component>
+            <location>3</location>
+            <is_active>1</is_active>
+            <ordering>2</ordering>
+            <disallow_access/>
+            <can_move>0</can_move>
+            <title><![CDATA[Photos]]></title>
+            <source_code/>
+            <source_parsed/>
+        </block>
+    </blocks>
+</upgrade>

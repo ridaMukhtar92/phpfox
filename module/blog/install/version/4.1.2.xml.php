@@ -1,0 +1,11 @@
+<upgrade>
+    <phrases>
+        <phrase>
+            <module_id>blog</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>invalid</var_name>
+            <added>1450080964</added>
+            <value>Invalid</value>
+        </phrase>
+    </phrases>
+</upgrade>

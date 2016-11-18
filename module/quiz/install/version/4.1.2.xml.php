@@ -1,0 +1,11 @@
+<upgrade>
+    <phrases>
+        <phrase>
+            <module_id>quiz</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>moderation</var_name>
+            <added>1450164697</added>
+            <value>Moderation</value>
+        </phrase>
+    </phrases>
+</upgrade>

@@ -1,0 +1,18 @@
+<upgrade>
+    <phrases>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.2.1</version_id>
+            <var_name>followers</var_name>
+            <added>1454380328</added>
+            <value>Followers</value>
+        </phrase>
+        <phrase>
+            <module_id>pages</module_id>
+            <version_id>4.2.1</version_id>
+            <var_name>follower</var_name>
+            <added>1454380457</added>
+            <value>Follower</value>
+        </phrase>
+    </phrases>
+</upgrade>

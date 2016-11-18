@@ -1,0 +1,172 @@
+<upgrade>
+    <phrases>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>manage_friends</var_name>
+            <added>1449803168</added>
+            <value>Manage friends</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>register</var_name>
+            <added>1449803419</added>
+            <value>Register</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>menu</var_name>
+            <added>1449804544</added>
+            <value>Menu</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>explorer</var_name>
+            <added>1449834831</added>
+            <value>Explorer</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>enable_dnd</var_name>
+            <added>1449835028</added>
+            <value>Enable DnD</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>login</var_name>
+            <added>1449835186</added>
+            <value>Login</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>requests</var_name>
+            <added>1449835285</added>
+            <value>Requests</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>notifications</var_name>
+            <added>1449835318</added>
+            <value>Notifications</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>messages</var_name>
+            <added>1449835376</added>
+            <value>Messages</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>display</var_name>
+            <added>1450059734</added>
+            <value>Display</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>please_check_back_in_a_few_minutes_dot</var_name>
+            <added>1450060042</added>
+            <value>Please check back in a few minutes.</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>no_valid_files_were_submitted</var_name>
+            <added>1450082367</added>
+            <value>No valid files were submitted</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>we_are_unable_to_find_a_branding_removal_assigned_to_this_license_dot</var_name>
+            <added>1450082827</added>
+            <value>We are unable to find a branding removal assigned to this license.</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>creating_communities_for_musicians</var_name>
+            <added>1450083039</added>
+            <value>Creating communities for Musicians</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>creating_communities_for_photographers</var_name>
+            <added>1450083073</added>
+            <value>Creating communities for Photographers</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>creating_communities_for_athletes</var_name>
+            <added>1450083171</added>
+            <value>Creating communities for Athletes</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>creating_communities_for_fine_cooking</var_name>
+            <added>1450083221</added>
+            <value>Creating communities for Fine Cooking</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>titles_are_not_different</var_name>
+            <added>1450146494</added>
+            <value>Titles are not different</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>this_should_not_happen</var_name>
+            <added>1450146581</added>
+            <value>This should not happen</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>this_redirect_would_cause_a_loop</var_name>
+            <added>1450146620</added>
+            <value>This redirect would cause a loop</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>this_is_not_a_valid_url_url</var_name>
+            <added>1450146781</added>
+            <value>This is not a valid url: "{url}"</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>hack_attempt</var_name>
+            <added>1450149491</added>
+            <value>Hack attempt?</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>new_country</var_name>
+            <added>1450154092</added>
+            <value>New Country</value>
+        </phrase>
+        <phrase>
+            <module_id>core</module_id>
+            <version_id>4.1.2</version_id>
+            <var_name>new_currency</var_name>
+            <added>1450154210</added>
+            <value>New Currency</value>
+        </phrase>
+    </phrases>
+</upgrade>

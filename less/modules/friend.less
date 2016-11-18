@@ -1,0 +1,339 @@
+#panel {
+    .js_friend_search_link {
+        border-bottom: 1px darken(@block-bg, 6%) solid;
+        padding: 4px 0;
+        cursor: pointer;
+    }
+}
+
+.js_temp_friend_search_form_holder {
+    background: @block-bg;
+    color: @block-color;
+    border: 1px darken(@block-bg, 8%) solid;
+    padding: 0;
+
+    .js_friend_search_link {
+        > span {
+            img, .no_image_user {
+                max-width: 32px;
+                max-height: 32px;
+                padding: 0;
+            }
+
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 6px;
+        }
+    }
+}
+
+.js_friend_search_link:hover {
+    background: darken(@block-bg, 6%);
+    transition: @transition;
+    cursor: pointer;
+}
+
+.js_custom_search_friend_holder {
+    border: @form-border;
+    background: @form-bg;
+    padding: 0;
+
+    > ul {
+        margin: 10px;
+
+        > li {
+            border: 0;
+            padding: 2px 20px 2px 4px;
+            display: inline-block;
+            margin: 0 8px 8px 0;
+            background: @block-bg;
+            color: @block-color;
+
+            .friend_search_image, .friend_search_name {
+                .reset();
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+
+            .friend_search_image {
+                margin-top: 5px;
+            }
+        }
+
+        > li:hover {
+            background: @brand-primary;
+            color: @brand-primary-color;
+        }
+    }
+}
+
+#js_friend_search_content {
+    .friend_search_holder {
+        font-size: @font-size-base - 2;
+    }
+}
+
+#js_friend_loader input {
+    .full_input();
+}
+
+#js_friend_loader {
+    input {
+        padding: 5px 5px;
+        border: 1px solid @input-border;
+        border-bottom: 0;
+    }
+
+    .label_flow {
+        padding: 10px;
+        border: 1px solid @input-border;
+    }
+}
+
+#js_mp_block_invite {
+    .title {
+        border-bottom: 0;
+        line-height: 25px;
+    }
+}
+
+.friend_search_holder, .friend_search_holder:hover {
+    .reset();
+    background: transparent;
+    display: inline-block;
+    width: 31%;
+    margin: 0 6px 10px 0;
+    vertical-align: top;
+
+    > span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.friend_search_holder:hover {
+    background: darken(@block-bg, 5%);
+}
+
+.friend_search_active, .friend_search_active:hover {
+    background: @brand-primary;
+    color: @brand-primary-color;
+}
+
+.friend_search_holder_active, .friend_search_holder_active:hover {
+    background: transparent;
+    color: inherit;
+    opacity: 0.4;
+}
+
+.fullContent(page_friend_profile);
+
+#js_block_content_profile_friend {
+    .user_rows_mini .user_rows {
+        width: 80px;
+        height: 110px;
+    }
+
+    .user_rows .user_profile_link_span > a, .user_rows .user_profile_link_span > a:hover {
+        text-align: left;
+        text-indent: 2px;
+    }
+
+    ._size__120 > span, ._size__120:hover > span {
+        top: 20px;
+        left: 0;
+        width: 81px;
+    }
+}
+
+.list_manager_holder {
+    position: relative;
+}
+
+.list_manager {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    z-index: 100000;
+    i {
+        display: none;
+        font-size: 40px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+}
+
+.list_manager.active, .list_manager:hover {
+    background: rgba(0, 0, 0, 0.6);
+    i {
+        display: block;
+    }
+}
+
+.list_manager.active {
+    background: rgba(255, 255, 255, 0.6);
+    i {
+        color: @brand-primary;
+    }
+}
+
+#sFriendImage {
+    border: 1px @brand-primary dashed;
+
+    img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}
+
+#sFriendInput {
+    background: darken(@block-bg, 5%);
+    color: @block-color;
+}
+
+.pending-friend-request {
+    opacity: 0.8;
+    background: fade(@brand-primary, 80%);
+    color: @brand-primary-color;
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px 4px;
+}
+
+.friend_action_edit_list_holder {
+    left: 5px;
+    right: 5px;
+    top: 5px;
+}
+
+#page_friend_index, #page_friend_pending, #page_friend_suggestion, #page_friend_profile {
+    .user_rows {
+        overflow: visible;
+        position: relative;
+        height: 130px;
+        display: block;
+        float: left;
+    }
+    .friend_action {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        > a {
+            color: darken(@block-bg, 20%);
+        }
+    }
+    .fa-remove {
+        color: #333;
+    }
+}
+
+.user_rows:hover {
+    a.friend_action_delete {
+        display: block;
+    }
+}
+
+.row_unfriend {
+    padding-top: 5px;
+    font-size: 11px;
+    display: none;
+}
+
+.row_friend_browse:hover .row_unfriend {
+    display: block;
+}
+
+.friend_row_holder {
+    position: relative;
+    height: 50px;
+}
+
+.friend_image {
+    position: absolute;
+}
+
+.friend_user_name {
+    margin-left: 60px;
+}
+
+.friend_user_name span.user_profile_link_span a,
+.friend_user_name span.user_profile_link_span a:hover {
+    font-weight: bold;
+}
+
+.friend_action {
+    position: static;
+    right: 0;
+    top: 0;
+}
+
+.friend_action_holder {
+    background: red;
+    width: auto;
+    position: static;
+}
+
+.friend_list_form {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    display: none;
+}
+
+.friend_list_edit_ajax {
+    display: none;
+}
+
+.js_friend_sort_handler {
+    display: none;
+    cursor: move;
+}
+
+.js_friend_edit_order {
+    display: none;
+}
+
+#js_block_border_friend_suggestion {
+    #js_friend_suggestion {
+        .row_title {
+            padding-top: 10px;
+
+            .row_title_image {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.js_suggestion_parent {
+    .dropdown-menu {
+        min-width: 180px;
+
+        li {
+            overflow: hidden;
+        }
+    }
+}
+
+#page_friend_profile {
+    ._block_content {
+        &:extend(.clearfix all);
+
+        .js_pager_view_more_link {
+            clear: both;
+        }
+    }
+}
+
+#page_friend_index {
+    .friend_list_holder {
+        margin-bottom: 10px;
+    }
+}
