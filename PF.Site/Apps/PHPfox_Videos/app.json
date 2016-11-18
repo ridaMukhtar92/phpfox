@@ -1,0 +1,102 @@
+{
+	"id": "PHPfox_Videos",
+	"alias": "v",
+	"name": "Videos",
+	"version": "1.4",
+	"icon": "//d2h79mkp7etn4r.cloudfront.net/icon/2015/06/fd24a3c803893f957c2313fe2269ca56.png",
+	"admincp_route": "/v/admincp",
+	"admincp_menu": {
+		"Categories": "#"
+	},
+	"admincp_help": "/v/admincp/iframe",
+	"admincp_action_menu": {
+		"/v/admincp/category": "New Category"
+	},
+	"map": {
+		"title": "caption",
+		"link": "\/v\/play\/:id",
+		"content": "@view\/feed.html",
+		"feed_info": "shared a video"
+	},
+	"map_search": {
+		"title": "caption",
+		"link": "\/v\/play\/:id",
+		"info": "Video"
+	},
+	"menu": {
+		"name": "Videos",
+		"url": "/v",
+		"icon": "video-camera"
+	},
+	"settings": {
+		"pf_video_enabled": {
+			"info": "Video App Enabled",
+			"type": "input:radio",
+			"value": 1,
+			"js_variable": true
+		},
+		"pf_video_key": {
+			"info": "Zencoder API Key"
+		},
+		"pf_video_s3_key": {
+			"info": "Amazon S3 Access Key"
+		},
+		"pf_video_s3_secret": {
+			"info": "Amazon S3 Secret"
+		},
+		"pf_video_s3_bucket": {
+			"info": "Amazon S3 Bucket"
+		},
+		"pf_video_s3_url": {
+			"info": "Provide the S3, CloudFront or Custom URL",
+			"js_variable": true
+		}
+	},
+	"user_group_settings": {
+		"pf_video_share": {
+			"info": "Can share/upload a video?",
+			"type": "input:radio",
+			"value": "1",
+			"options": {
+				"yes": "Yes",
+				"no": "No"
+			}
+		},
+		"pf_video_file_size": {
+			"info": "Max file size (MB)",
+			"type": "input:text",
+			"value": "10"
+		},
+		"pf_video_view": {
+			"info": "Can view a video?",
+			"type": "input:radio",
+			"value": "1",
+			"options": {
+				"yes": "Yes",
+				"no": "No"
+			}
+		}
+	},
+	"notifications": {
+		"video_ready": {
+			"message": "Your video is ready!",
+			"url": "/v/play/:id",
+			"icon": "fa-video-camera"
+		},
+		"video_ready_p": {
+			"message": "Your video is ready!",
+			"url": "/v/play/p-:id",
+			"icon": "fa-video-camera"
+		},
+		"__like": {
+			"message": "{{ user_full_name }} liked your video",
+			"url": "/v/play/:id",
+			"icon": "fa-video-camera"
+		},
+		"__comment": {
+			"message": "{{ user_full_name }} commented on your video",
+			"url": "/v/play/:id",
+			"icon": "fa-video-camera"
+		}
+	}
+}

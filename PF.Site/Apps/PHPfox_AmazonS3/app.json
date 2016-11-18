@@ -1,0 +1,25 @@
+{
+	"id": "PHPfox_AmazonS3",
+	"name": "Amazon CDN",
+	"icon": "https://raw.githubusercontent.com/moxi9/phpfox-amazons3/master/assets/app.png",
+	"version": "1.0",
+	"settings": {
+		"cdn_enabled": {
+			"info": "Enable CDN",
+			"type": "input:radio",
+			"value": 0
+		},
+		"cdn_amazon_id": {
+			"info": "Amazon Key ID"
+		},
+		"cdn_amazon_secret": {
+			"info": "Amazon Secret Key"
+		},
+		"cdn_bucket": {
+			"info": "Bucket Name"
+		},
+		"cdn_cloudfront_url": {
+			"info": "CloudFront URL"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": "PHPfox_CDN",
+	"name": "phpFox CDN",
+	"icon": "https://d2h79mkp7etn4r.cloudfront.net/icon/2016/07/34f4d4d190b1d0e3ab028acff61bd961.png",
+	"version": "1.0",
+	"admincp_route": "/pfcdn/acp",
+	"admincp_menu": {
+		"Servers": "#"
+	},
+	"admincp_action_menu": {
+		"/pfcdn/acp/server": "New Server"
+	},
+	"settings": {
+		"pf_cdn_enabled": {
+			"info": "Enable CDN",
+			"type": "input:radio",
+			"value": 0
+		}
+	}
+}

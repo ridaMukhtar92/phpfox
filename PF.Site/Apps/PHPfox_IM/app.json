@@ -1,0 +1,27 @@
+{
+	"id": "PHPfox_IM",
+	"name": "IM",
+	"version": "1.14",
+	"icon": "//d2h79mkp7etn4r.cloudfront.net/icon/2015/07/f95347e982e1f098f4611c2afc8aeb18.png",
+	"js": [
+		"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"
+	],
+	"admincp_route": "/im/admincp",
+	"js_phrases": {
+		"messenger": "Messenger",
+		"conversations": "Conversations",
+		"friends": "Friends"
+	},
+	"settings": {
+		"pf_im_enabled": {
+			"info": "IM App Enabled",
+			"type": "input:radio",
+			"value": 0,
+			"js_variable": true
+		},
+		"pf_im_node_server": {
+			"info": "Provide your Node JS server",
+			"js_variable": true
+		}
+	}
+}

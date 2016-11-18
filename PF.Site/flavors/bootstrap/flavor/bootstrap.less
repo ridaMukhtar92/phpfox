@@ -1,0 +1,116 @@
+
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+@gray-base:              #555; // hide
+@gray-darker:            #888; // !hide
+@gray-dark:              #999;   // !hide
+@gray:                   #ddd; // !hide
+@gray-light:             #eee; // !hide
+@gray-lighter:           #f8f8f8; // !hide
+
+
+//== Main
+@logoUrl: ''; // Logo
+
+
+//== Containers
+@container-max-width: 920px; // Container/Holder width !hide
+@container-max-width-full: 1190px; // Max Width
+@container-bg:              transparent; // Background color for container | color !hide
+@content-width: 600px; // !hide
+
+////== Helpers
+@transition:                all 0.50s ease; // !hide
+@border-radius-base:        0; // !hide
+@separator: "\00b7";  // !hide
+@box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); //!hide
+
+//== Links
+@link-color: @brand-primary;
+@link-hover-color:           darken(@link-color, 15%);
+
+@link-focus: #222;
+@link-focus-hover: @brand-primary;
+
+//== Brand
+@brand-primary-color: #fff;
+@brand-primary:         #297fc7; // Brand primary
+@brand-success:         #5cb85c;
+@brand-info:            #5bc0de;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #ee5454;
+
+@font-family-base:          'Helvetica Neue', Helvetica, Arial, sans-serif;// Font family
+@font-size-base:            14px; // Base font size | size
+@input-color: #555;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+@body-bg:               #e4e8eb;
+//** Global text color on `<body>`.
+@text-color:            #555;
+
+@block-title-color: #555;
+
+//** Global textual link color.
+@link-color:            @brand-primary;
+//** Link hover color set via `darken()` function.
+@link-hover-color:      darken(@link-color, 15%);
+//** Link hover decoration.
+@link-hover-decoration: none;
+
+@block-border: #ddd;
+///== Columns
+@column-left-width: 250px; //!hide
+@column-width: 300px; //!hide
+
+//== Navs
+@nav-bg: #fff;
+@nav-color: lighten(#808080, 10%);
+@nav-width: 200px; // !hide
+
+
+
+//== Header
+@header-bg: @brand-primary;
+@header-color: #e5e5e5;
+
+//== Blocks
+@block-bg:                  #fff;
+@block-color:               #555;
+@block-radius: @border-radius-base; //!hide
+@block-margin-bottom:       20px;
+@block-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4); // !hide
+@block-box-shadow-light: 0 0 20px 0 rgba(0, 0, 0, 0.2);// !hide
+
+
+@block-title-padding: 10px;// !hide
+@block-title-bg: #555; // block title color
+@block-title-size: 22px;
+@block-title-font-weight: 400; // block title font weight
+
+@block-content-padding: 20px;
+@block-content-size: @font-size-base; // !hide
+@hover-categories: true; // !hide
+//== Forms
+@form-bg: @block-bg; // !hide
+@form-color: @block-color; // !hide
+@form-border: 1px transparent solid; // !hide
+
+@row-border-color: #eee;
+@input-border: #ddd;
+@use-block-box: 		true; // !hide
+@use-border-radius: false; // !hide
+@use-input-outline: false; // !hide
+@form-control-border: 1px solid @input-border; // !hide
+
+
+@footer-bg: #1a1a1a;
+@footer-holder-bg: @footer-bg;
+@footer-color: darken(@body-bg,40%);
+@footer-hover-color: @body-bg;
+@dropdown-line-height: 40px;
+/** START CSS */

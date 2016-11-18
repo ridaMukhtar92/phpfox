@@ -1,0 +1,57 @@
+{
+	"id": "PHPfox_Core",
+	"name": "phpFox Core",
+	"icon": "https://d2h79mkp7etn4r.cloudfront.net/icon/2016/07/efc54ac65573b80918c63d6cc0eef46e.png",
+	"version": 1.0,
+	"settings": {
+		"pf_core_cache_driver": {
+			"info": "Cache Driver",
+			"type": "select",
+			"value": "file",
+			"options": {
+				"file": "File System",
+				"redis": "Redis",
+				"memcached": "Memcache"
+			},
+			"group_class": "core_cache_driver"
+		},
+		"pf_core_cache_redis_host": {
+			"info": "Redis Host",
+			"group_class": "core_cache_driver",
+			"option_class": "pf_core_cache_driver=redis"
+		},
+		"pf_core_cache_redis_port": {
+			"info": "Redis Port",
+			"group_class": "core_cache_driver",
+			"option_class": "pf_core_cache_driver=redis"
+		},
+		"pf_core_cache_memcached_host": {
+			"info": "Memcache Host",
+			"group_class": "core_cache_driver",
+			"option_class": "pf_core_cache_driver=memcached"
+		},
+		"pf_core_cache_memcached_port": {
+			"info": "Memcache Port",
+			"group_class": "core_cache_driver",
+			"option_class": "pf_core_cache_driver=memcached"
+		},
+
+		"pf_core_bundle_js_css": {
+			"info": "Bundle JavaScript & CSS",
+			"type": "input:radio",
+			"value": 0,
+			"group_class": "core_redis"
+		},
+		"pf_core_redis_host": {
+			"info": "Redis URI",
+			"group_class": "core_redis"
+		},
+		"pf_core_redis": {
+			"info": "Enable Redis",
+			"type": "input:radio",
+			"value": 0,
+			"group_class": "core_redis",
+			"requires": "pf_core_redis_host"
+		}
+	}
+}

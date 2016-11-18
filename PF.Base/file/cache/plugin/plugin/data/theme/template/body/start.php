@@ -1,0 +1,1 @@
+<?php return 'echo \'<div id="fb-root"></div>\'; ';

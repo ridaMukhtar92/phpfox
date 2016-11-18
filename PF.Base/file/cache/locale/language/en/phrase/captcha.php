@@ -1,0 +1,22 @@
+<?php return array (
+  'user_setting_captcha_on_blog_add' => 'Enable CAPTCHA challenge when adding a new blog.',
+  'user_setting_captcha_on_comment' => 'Enable CAPTHCA challenge when a user adds a comment?',
+  'module_captcha' => 'Control CAPTCHA (Completely Automated Public Turing) testing.',
+  'complete_captcha_challenge' => 'Complete the CAPTCHA challenge.',
+  'image_verification' => 'Image Verification',
+  'captcha_failed_please_try_again' => 'Captcha failed. Please try again.',
+  'refreshing_image' => 'Refreshing Image',
+  'reload_image' => 'Reload Image',
+  'click_refresh_image' => 'Click to Refresh Image',
+  'type_verification_code_above' => 'Type in the verification code above',
+  'setting_group_recaptcha' => '<title>reCAPTCHA</title><info>reCAPTCHA</info>',
+  'setting_recaptcha_public_key' => '<title>reCAPTCHA Public Key</title><info>Enter your reCAPTCHA public key here.</info>',
+  'setting_recaptcha_private_key' => '<title>reCAPTCHA Private Key</title><info>Enter your reCAPTCHA private key here.</info>',
+  'captcha_challenge' => 'Captcha Challenge',
+  'setting_captcha_type' => '<title>Captcha Type</title><info>Select captcha type
+If you choose Recaptcha, visit google.com/recaptcha and get free key</info>',
+  'default' => 'Default',
+  'qrcode' => 'QR Code',
+  'recaptcha' => 'ReCaptcha',
+  'captcha_qrcode_challenge' => 'Scan QR Code to get verification code',
+);

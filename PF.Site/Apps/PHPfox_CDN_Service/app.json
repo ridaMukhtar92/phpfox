@@ -1,0 +1,16 @@
+{
+    "id": "PHPfox_CDN_Service",
+    "name": "phpFox CDN Service",
+    "icon": "https://d2h79mkp7etn4r.cloudfront.net/icon/2016/07/0ee4b41dc1b1a5330ee8b1ac736bbbf6.png",
+    "version": "1.0",
+    "settings": {
+        "pf_cdn_service_enabled": {
+            "info": "Enable CDN Service",
+            "type": "input:radio",
+            "value": 0
+        },
+        "pf_cdn_service_url": {
+            "info": "CDN URL"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{% import '@PHPfox_Videos/macro.html' as Video %}
+{% if embed_image %}
+<div class="pf_video_embed_video">
+	{{ embed_code }}
+</div>
+{% else %}
+{{ Video.html(path) }}
+{% endif %}
+
+{% if status_update %}
+	<div>
+		{{ status_update }}
+	</div>
+{% endif %}
