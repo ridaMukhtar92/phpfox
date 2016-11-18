@@ -32,7 +32,7 @@ $_CONF['balancer']['servers'] = array();
 
 $_CONF['core.host'] = 'localhost';
 
-$_CONF['core.folder'] = '/phpfox2/';
+$_CONF['core.folder'] = '/phpfox/';
 
 $_CONF['core.url_rewrite'] = '2';
 

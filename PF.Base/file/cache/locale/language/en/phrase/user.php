@@ -931,4 +931,5 @@ Enable 2-step verification to protect your account from hijacking by adding anot
   'setting_hide_recommended_user_block' => 'Hide block "Users You May Know" in page browse user.',
   'users_you_may_know' => 'Users You May Know',
   'setting_captcha_on_login' => '<title>Captcha on Login</title><info>Enable this option to add a captcha routine to the login process.</info>',
+  'user_level_1' => 'level 1',
 );
